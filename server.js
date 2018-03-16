@@ -12,7 +12,7 @@ var config =  {
     
 };
 
-var app = express();
+var app  = express();
 app.use(morgan('combined'));
 
 var articles = {
